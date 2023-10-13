@@ -1,0 +1,45 @@
+<! DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
+	<title>Sign up</title>
+	<link href="css/Account.css" type="text/css" rel="stylesheet">
+	<link href="css/Main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="header_navbar">
+		<a href="index.html"><p class="title">WikiClone</p></a>
+		<div class="buttons_in_raw">
+			<div class="navbar_item"><a href="Login.html" class="header_link">Login</a></div>
+			<div class="navbar_item"><a href="Register.html" class="header_link">Register</a></div>
+		</div>
+	</div>
+</header>
+<main>
+	<div class="container_title">
+		<div class="container">
+			<div class="item_left">
+				<h1>
+					Sign up
+				</h1>
+			</div>
+		</div>
+	</div>
+	<form action="index.html">
+		<label for="username">Username:</label>
+		<input class="input_data" type="text" id="username" name="username" placeholder="Your nickname..">
+
+		<label for="email">Email:</label>
+		<input class="input_data" type="email" id="email" name="email" placeholder="Your email..">
+
+		<label for="password">Password:</label>
+		<input class="input_data" type="password" id="password" name="password" placeholder="Your password..">
+
+		<input type="submit" onclick="createNewUser()" value="Register">
+	</form>
+</main>
+<footer>
+	<p>WikiClone. 2021 - Roman Brizinski</p>
+</footer>
+<script src="jsodels/user.js"></script>
+<script src="jsegister_page.js"></script>
+</body>

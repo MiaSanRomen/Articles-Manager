@@ -1,0 +1,73 @@
+<! DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
+	<title>Wiki main</title>
+	<script src="jsodels/article.js"></script>
+	<script src="jsodels/block.js"></script>
+	<script src="jsodels/user.js"></script>
+	<link href="css/Main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="header_navbar">
+			<a href="index.html"><p class="title" onclick="search(1)">WikiClone</p></a>
+			<div class="navbar_item">
+				<form >
+					<input id="search_value" type="text" class="search" name="Search" placeholder="Search">
+					<input onclick="search(0)" type="submit" value="Search" class="button_site" />
+				</form>
+			</div>
+			<div class="buttons_in_raw">
+				<div id="first_nav" class="navbar_item" onclick="search(1)"><!--<a href="Login.html" class="header_link">Login</a>--></div>
+				<div id="second_nav" class="navbar_item" onclick="search(1)"><!--<a href="Register.html" class="header_link">Register</a>--></div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container_title">
+			<div class="title_navbar">
+				<div class="item_left">
+					<h1>
+						Welcome to WikiClone!
+					</h1>
+				</div>
+				<div class="title_navbar">
+					<blockquote>
+						<h3>
+							History is a teacher of life.
+						</h3>
+						<hr>
+						<p>
+							- Marcus Tullius Cicero
+						</p>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="title_navbar">
+				<div class="item_left">
+					<h2>
+						Popular articles
+					</h2>
+				</div>
+				<a href="EditArticle.html" class="button_site" onclick="search(1)">Create new article</a>
+			</div>
+			<ul id="articles_list" class="container">
+				<!--<li class="item_left">
+					<div class="card">
+						<img src="css/images/leg1.jpg">
+						<div>
+							<h4>Article name</h4>
+							<p>Article info</p>
+							<a href="Article.html" class="button_site">Learn more...</a>
+						</div>
+					</div>
+				</li>-->
+			</ul>
+		</div>
+	</main>
+	<footer>
+		<p>WikiClone. 2021 - Roman Brizinski</p>
+	</footer>
+	<script src="jsain_page.js"></script>
+</body>

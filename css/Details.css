@@ -1,0 +1,36 @@
+hr{
+    width: 90%;
+}
+.container_name{
+    width:100%;
+    height:50px;
+    margin-top: 70px;
+}
+.picture{
+    width: auto;
+    height: 200px;
+}
+.picture_box{
+     margin: 0 auto;
+ }
+.intro{
+    width: 60%;
+}
+.block_info{
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+}
+h3{
+    font-family: Georgia, serif;
+}
+.content{
+    height: 70%;
+    margin-bottom: 15%;
+}
+.block_txt_img{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+<! DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
+	<title>Edit block</title>
+	<link href="css/Main.css" type="text/css" rel="stylesheet">
+	<link href="css/crud.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="header_navbar">
+		<a href="index.html"><p class="title">WikiClone</p></a>
+		<div class="buttons_in_raw">
+			<div class="navbar_item"><a href="Login.html" class="header_link">Login</a></div>
+			<div class="navbar_item"><a href="Register.html" class="header_link">Register</a></div>
+		</div>
+	</div>
+</header>
+<main>
+	<div class="container_title">
+		<div class="container">
+			<div class="item_left">
+				<h1>
+					Edit paragraph
+				</h1>
+			</div>
+		</div>
+	</div>
+	<form action="EditArticle.html">
+		<label for="title">Title:</label>
+		<input type="text" id="title" name="title" placeholder="Title..">
+		<label for="about">Content:</label>
+		<input type="text" id="about" name="content" placeholder="Content..">
+		<label for="image">Image:</label>
+		<input type="file" id="image" name="image" placeholder="Image..">
+		<btn onclick="saveFile()" class="button_site">Save image</btn>
+		<input type="submit" value="Submit" onclick="createNewBlock()">
+	</form>
+</main>
+<footer>
+	<p>WikiClone. 2021 - Roman Brizinski</p>
+</footer>
+<script src="jsodels/article.js"></script>
+<script src="jsodels/block.js"></script>
+<script src="jsdit_block.js"></script>
+</body>

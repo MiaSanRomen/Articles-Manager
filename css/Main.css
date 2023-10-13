@@ -1,0 +1,140 @@
+header, footer{
+    height: 60px;
+    width: 100%;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+footer {
+    margin-top: 60px;
+    background-color: darkgray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.container{
+    width:100%;
+    height:100%;
+}
+.container_title{
+    width:100%;
+    height:150px;
+    margin-top: 60px;
+}
+.card{
+    width:200px;
+    height:350px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 25px;
+}
+.brd{
+    border: 10px black;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.header_link{
+    width: 50px;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color .2s linear;
+    position: relative;
+    font-size: 20px;
+}
+.button_site {
+    width: 100px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    horiz-align: center;
+}
+.title{
+    width: 200px;
+    horiz-align: left;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-size: 40px;
+}
+.search{
+    width: 150px;
+    font-size: 18px;
+    text-decoration-style: wavy;
+}
+.item_left{
+    display: inline-block;
+    vertical-align: middle;
+    horiz-align: left;
+}
+.blockquote{
+    left: 0;
+    horiz-align: left;
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    padding-right: 10px;
+    position: relative;
+}
+.header_navbar {
+    list-style-type: none;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+
+}
+.navbar{
+
+    left: 0;
+    horiz-align: left;
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+    padding-right: 10px;
+    position: relative;
+}
+li a:hover:not(.active) {
+    color: white;
+}
+form{
+    margin-bottom: 10px;
+}
+.link_main{
+    width: auto;
+}
+.title_navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons_in_raw{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
